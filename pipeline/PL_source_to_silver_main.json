@@ -41,7 +41,7 @@
 				"userProperties": [],
 				"typeProperties": {
 					"items": {
-						"value": "@activity('Read source tables list').output.value",
+						"value": "@activity('Read source tables list').output.value\n",
 						"type": "Expression"
 					},
 					"isSequential": false,
@@ -155,7 +155,7 @@
 			},
 			"adf_run_id": {
 				"type": "string",
-				"defaultValue": "a3"
+				"defaultValue": "a4"
 			}
 		},
 		"variables": {
